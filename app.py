@@ -99,7 +99,7 @@ with tab1:
 # Search Tab
 with tab2:
     st.header("Search Library")
-    search_by = st.selectbox("Search by:", ["Title", "Author"])
+    search_by = st.selectbox("Search by:", ["title", "author"])
     search_term = st.text_input(f"Enter the {search_by}:")
     
     if search_term:
